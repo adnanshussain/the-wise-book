@@ -1,0 +1,24 @@
+{
+    "folders": [
+        {
+            "name": "vue3-client",
+            "path": "vue3-client"
+        },
+        {
+            "path": "../ashLib007"
+        },
+        {
+            "path": "express-api-server"
+        }
+    ],
+    "tasks": {
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "echo",
+                "type": "shell",
+                "command": "echo Hello"
+            }
+        ]
+    }
+}
