@@ -1,5 +1,5 @@
 const pluginName = 'ConsoleLogOnBuildWebpackPlugin';
-const ashlog = require('../../ashLib007/src/index');
+const ashlog = require('ashlib').log;
 
 class ConsoleLogOnBuildWebpackPlugin {
     apply(compiler) {

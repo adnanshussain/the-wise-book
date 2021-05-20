@@ -5,10 +5,16 @@
             "path": "vue3-client"
         },
         {
-            "path": "../ashLib007"
+            "name": "express-api-server",
+            "path": "express-api-server"
         },
         {
-            "path": "express-api-server"
+            "name": "ashlib",
+            "path": "../ashlib"
+        },
+        {
+            "name": "thewisebook",
+            "path": "."
         }
     ],
     "tasks": {
