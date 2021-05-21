@@ -10,6 +10,12 @@ module.exports = {
             .use(new MyFFWebpackPlugin());
 
         // FIXME
+        /* config
+            .plugin("HtmlWebpackPlugin")
+            .use()
+            .title = "Maa Ka Title"; */
+
+        // FIXME
         // config['devServer'].port(8080);
     },
     configureWebpack: {
