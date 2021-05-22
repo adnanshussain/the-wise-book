@@ -1,13 +1,24 @@
 <template>
-  <div class="row, green-border">
-    <div class="col" align="center">
-      <h1>وَالْقُرْآنِ الْحَكِيمِ (The Wise Qurãn) - The Wise Book.</h1>
+    <div class="row">
+        <div class="col" align="center">
+            <h1>The Wise Book - وَالْقُرْآنِ الْحَكِيمِ</h1>
+        </div>
     </div>
-  </div>
 </template>
 
 <script>
 export default {
-  name: "SiteHeader",
+    name: "SiteHeader",
 };
 </script>
+
+<style scoped>
+.row div {
+    padding-top: 1em;
+}
+
+h1 {
+    color: green;
+    font-variant: small-caps;
+}
+</style>

@@ -1,17 +1,15 @@
 <template>
     <div class="container-fluid">
-        <RouterView />
+        YO. VAIIIP !
     </div>
 </template>
 
 <script>
 export default {
-    name: "Layout",
-};
+    name: "AyatList"
+}
 </script>
 
-<style>
-/* .dev-border {
-    border: 1px black solid;
-} */
+<style scoped>
+
 </style>

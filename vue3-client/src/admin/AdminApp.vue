@@ -1,11 +1,14 @@
 <template>
-  <div class="row">
-      <h2>Admin</h2>
-  </div>
+    <div class="container-fluid">
+        <SiteHeader/>
+    </div>
 </template>
 
 <script>
+import SiteHeader from './shared/SiteHeader.vue';
+
 export default {
-  Name: "Admin",
+    components: {SiteHeader  },
+    Name: "Admin",
 };
 </script>

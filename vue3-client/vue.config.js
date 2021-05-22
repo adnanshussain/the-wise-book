@@ -9,20 +9,27 @@ module.exports = {
             .plugin("FFP")
             .use(new MyFFWebpackPlugin());
 
+        /* config
+            .devServer
+            .host('0.0.0.0')
+            .stats('verbose'); */
+
+        //ashlog("Final Webpack Config Chain: ", Object.keys(config));
         // FIXME
         /* config
             .plugin("HtmlWebpackPlugin")
-            .use()
-            .title = "Maa Ka Title"; */
+            .tap((options) => {
+                options.title = "Chal Gia BSDK."
+            }); */
 
         // FIXME
         // config['devServer'].port(8080);
     },
     configureWebpack: {
         /* devServer: {
-            // FIXME
-            port: 8080
-        } */
+            host: '0.0.0.0',
+            stats: "verbose"
+        }, */
         devtool: "source-map",
         resolve: {
             alias: {

@@ -1,5 +1,6 @@
+import ashlib from 'ashlib'
 import { createRouter, createWebHashHistory } from "vue-router";
-import PortalApp from './portal/PortalApp.vue'
+import PortalApp from './portal/PortalApp.vue';
 
 const routes = [
     { name: "publicPortal", path: "/", component: PortalApp },
@@ -13,7 +14,8 @@ const routes = [
         component: () => import(/* webpackChunkName: "about" */ './PageNotFound.vue')
     },
 
-    /* ==> EXAMPLE ROUTES <== */
+    //#region
+    // ==> EXAMPLE ROUTES <== //
     // will match anything starting with `/user-` and put it under `$route.params.afterUser`
     // { path: '/user-:afterUser(.*)', component: UserGeneric },
 
@@ -39,9 +41,14 @@ const routes = [
     // { path: '/users/:userId?' },
     // will match /users and /users/42
     // { path: '/users/:userId(\\d+)?' },
+    //#endregion
 ];
 
+const whh = createWebHashHistory();
+
 export default createRouter({
-    history: createWebHashHistory(),
+    history: whh,
     routes
 });
+
+// ashlib.log("WebHashHistory: ", whh);
