@@ -8,7 +8,8 @@
   "scripts": {
     "serve": "nodemon -w vue.config.js -x 'vue-cli-service serve --port 8080'",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "json-server": "json-server ./data/thewisebook.json -s ./data/ -w"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",

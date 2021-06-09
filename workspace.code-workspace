@@ -1,16 +1,16 @@
 {
     "folders": [
         {
+            "name": "zero-config-restapi-backend",
+            "path": "../zero-config-restapi-backend"
+        },
+        {
             "name": "vue3-client",
             "path": "vue3-client"
         },
         {
             "name": "express-api-server",
             "path": "express-api-server"
-        },
-        {
-            "name": "ashlib",
-            "path": "../ashlib"
         },
         {
             "name": "thewisebook",
